@@ -1,0 +1,189 @@
+2023-03-09 14:11:49,682 DEBUG cd river_frappae_react && python3 -m venv env
+2023-03-09 14:11:53,819 DEBUG cd river_frappae_react && /home/samarasan/Projects/river_frappae_react/env/bin/python -m pip install --quiet --upgrade pip
+2023-03-09 14:11:56,300 DEBUG cd river_frappae_react && /home/samarasan/Projects/river_frappae_react/env/bin/python -m pip install --quiet wheel
+2023-03-09 14:11:58,074 LOG Getting frappe
+2023-03-09 14:11:58,075 DEBUG cd river_frappae_react/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2023-03-09 14:12:05,988 LOG Installing frappe
+2023-03-09 14:12:05,988 DEBUG cd /home/samarasan/Projects/river_frappae_react && /home/samarasan/Projects/river_frappae_react/env/bin/python -m pip install --quiet --upgrade -e /home/samarasan/Projects/river_frappae_react/apps/frappe 
+2023-03-09 14:12:42,101 DEBUG cd /home/samarasan/Projects/river_frappae_react/apps/frappe && yarn install
+2023-03-09 14:13:00,799 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-03-09 14:13:00,800 DEBUG cd river_frappae_react && bench build
+2023-03-09 14:13:00,968 INFO /home/samarasan/.local/bin/bench build
+2023-03-09 14:13:26,754 LOG setting up backups
+2023-03-09 14:13:26,771 LOG backups were set up
+2023-03-09 14:13:26,771 INFO Bench river_frappae_react initialized
+2023-03-09 14:15:27,397 INFO /home/samarasan/.local/bin/bench new-site local.com
+2023-03-09 14:18:33,753 INFO /home/samarasan/.local/bin/bench get-app --branch version-14 erpnext
+2023-03-09 14:18:39,157 LOG Getting erpnext
+2023-03-09 14:18:39,158 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2023-03-09 14:18:57,841 LOG Installing erpnext
+2023-03-09 14:18:58,050 DEBUG cd /home/samarasan/Projects/river_frappae_react && /home/samarasan/Projects/river_frappae_react/env/bin/python -m pip install --quiet --upgrade -e /home/samarasan/Projects/river_frappae_react/apps/erpnext 
+2023-03-09 14:19:22,393 DEBUG cd /home/samarasan/Projects/river_frappae_react/apps/erpnext && yarn install
+2023-03-09 14:19:23,217 DEBUG bench build --app erpnext
+2023-03-09 14:19:23,371 INFO /home/samarasan/.local/bin/bench build --app erpnext
+2023-03-09 14:19:31,713 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-03-09 14:20:22,133 INFO /home/samarasan/.local/bin/bench --site [site-name] install-app erpnext
+2023-03-09 14:20:36,713 INFO /home/samarasan/.local/bin/bench --site local.com install-app erpnext
+2023-03-09 14:22:31,485 INFO /home/samarasan/.local/bin/bench add-spa --app project_management_frappe
+2023-03-09 14:22:46,846 INFO /home/samarasan/.local/bin/bench add-spa --app project_management_frappe
+2023-03-09 14:23:12,825 INFO /home/samarasan/.local/bin/bench get-app https://github.com/NagariaHussain/doppio
+2023-03-09 14:23:12,835 LOG Getting doppio
+2023-03-09 14:23:12,835 DEBUG cd ./apps && git clone https://github.com/NagariaHussain/doppio  --depth 1 --origin upstream
+2023-03-09 14:23:15,530 LOG Installing doppio
+2023-03-09 14:23:15,733 DEBUG cd /home/samarasan/Projects/river_frappae_react && /home/samarasan/Projects/river_frappae_react/env/bin/python -m pip install --quiet --upgrade -e /home/samarasan/Projects/river_frappae_react/apps/doppio 
+2023-03-09 14:23:18,175 DEBUG cd /home/samarasan/Projects/river_frappae_react/apps/doppio && yarn install
+2023-03-09 14:23:19,410 DEBUG bench build --app doppio
+2023-03-09 14:23:19,582 INFO /home/samarasan/.local/bin/bench build --app doppio
+2023-03-09 14:23:25,911 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-03-09 14:23:28,849 INFO /home/samarasan/.local/bin/bench add-spa --app project_management_frappe
+2023-03-09 14:24:36,107 INFO /home/samarasan/.local/bin/bench add-spa --app proj_management [--tailwindcss] [--typescript]
+2023-03-09 14:24:51,903 INFO /home/samarasan/.local/bin/bench add-spa --app proj_management
+2023-03-09 14:28:59,748 INFO /home/samarasan/.local/bin/bench add-spa --app proj_management
+2023-03-09 14:29:43,791 INFO /home/samarasan/.local/bin/bench add-spa --app proj_management
+2023-03-09 14:29:58,840 INFO /home/samarasan/.local/bin/bench add-spa --app doppio
+2023-03-09 15:39:11,057 INFO /home/samarasan/.local/bin/bench start
+2023-03-09 15:39:11,739 INFO /home/samarasan/.local/bin/bench worker
+2023-03-09 15:39:11,743 INFO /home/samarasan/.local/bin/bench schedule
+2023-03-09 15:39:11,783 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-03-09 15:39:11,783 INFO /home/samarasan/.local/bin/bench watch
+2023-03-09 18:00:01,952 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-10 12:00:01,959 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-10 18:00:02,344 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-13 18:00:01,729 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-14 12:00:01,779 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-14 18:00:01,836 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-15 12:00:02,088 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-16 11:30:59,775 INFO /home/samarasan/.local/bin/bench start
+2023-03-16 11:31:00,584 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-03-16 11:31:00,618 INFO /home/samarasan/.local/bin/bench schedule
+2023-03-16 11:31:00,655 INFO /home/samarasan/.local/bin/bench watch
+2023-03-16 11:31:00,738 INFO /home/samarasan/.local/bin/bench worker
+2023-03-16 11:31:24,397 INFO /home/samarasan/.local/bin/bench start
+2023-03-16 11:31:25,186 INFO /home/samarasan/.local/bin/bench schedule
+2023-03-16 11:31:25,236 INFO /home/samarasan/.local/bin/bench worker
+2023-03-16 11:31:25,248 INFO /home/samarasan/.local/bin/bench watch
+2023-03-16 11:31:25,271 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-03-16 11:56:53,564 INFO /home/samarasan/.local/bin/bench new-app project_module
+2023-03-16 11:56:53,574 LOG creating new app project_module
+2023-03-16 11:57:54,116 LOG Installing project_module
+2023-03-16 11:57:54,118 DEBUG cd /home/samarasan/Projects/river_frappae_react && /home/samarasan/Projects/river_frappae_react/env/bin/python -m pip install --quiet --upgrade -e /home/samarasan/Projects/river_frappae_react/apps/project_module 
+2023-03-16 11:57:57,442 DEBUG bench build --app project_module
+2023-03-16 11:57:57,660 INFO /home/samarasan/.local/bin/bench build --app project_module
+2023-03-16 11:58:04,609 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-03-16 12:00:02,264 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-16 14:26:47,130 INFO /home/samarasan/.local/bin/bench start
+2023-03-16 14:26:47,807 INFO /home/samarasan/.local/bin/bench worker
+2023-03-16 14:26:47,854 INFO /home/samarasan/.local/bin/bench schedule
+2023-03-16 14:26:47,960 INFO /home/samarasan/.local/bin/bench watch
+2023-03-16 14:26:47,978 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-03-16 14:27:11,716 INFO /home/samarasan/.local/bin/bench start
+2023-03-16 14:27:12,389 INFO /home/samarasan/.local/bin/bench schedule
+2023-03-16 14:27:12,417 INFO /home/samarasan/.local/bin/bench worker
+2023-03-16 14:27:12,435 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-03-16 14:27:12,550 INFO /home/samarasan/.local/bin/bench watch
+2023-03-16 14:33:31,702 INFO /home/samarasan/.local/bin/bench get-app --branch version-14 erpnext
+2023-03-16 14:33:32,395 LOG Getting erpnext
+2023-03-16 14:33:32,396 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2023-03-16 14:33:39,750 LOG Installing erpnext
+2023-03-16 14:33:40,007 DEBUG cd /home/samarasan/Projects/river_frappae_react && /home/samarasan/Projects/river_frappae_react/env/bin/python -m pip install --quiet --upgrade -e /home/samarasan/Projects/river_frappae_react/apps/erpnext 
+2023-03-16 14:33:44,486 DEBUG cd /home/samarasan/Projects/river_frappae_react/apps/erpnext && yarn install
+2023-03-16 14:33:46,548 DEBUG bench build --app erpnext
+2023-03-16 14:33:46,746 INFO /home/samarasan/.local/bin/bench build --app erpnext
+2023-03-16 14:33:55,545 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-03-16 14:34:21,611 INFO /home/samarasan/.local/bin/bench start
+2023-03-16 14:34:22,324 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-03-16 14:34:22,331 INFO /home/samarasan/.local/bin/bench schedule
+2023-03-16 14:34:22,427 INFO /home/samarasan/.local/bin/bench worker
+2023-03-16 14:34:22,488 INFO /home/samarasan/.local/bin/bench watch
+2023-03-16 14:44:09,080 INFO /home/samarasan/.local/bin/bench start
+2023-03-16 14:44:09,807 INFO /home/samarasan/.local/bin/bench watch
+2023-03-16 14:44:09,869 INFO /home/samarasan/.local/bin/bench worker
+2023-03-16 14:44:09,911 INFO /home/samarasan/.local/bin/bench schedule
+2023-03-16 14:44:09,923 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-03-16 14:44:46,938 INFO /home/samarasan/.local/bin/bench get-app --branch version-14 erpnext
+2023-03-16 14:44:47,779 LOG Getting erpnext
+2023-03-16 14:44:47,779 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2023-03-16 14:44:55,253 LOG Installing erpnext
+2023-03-16 14:44:55,510 DEBUG cd /home/samarasan/Projects/river_frappae_react && /home/samarasan/Projects/river_frappae_react/env/bin/python -m pip install --quiet --upgrade -e /home/samarasan/Projects/river_frappae_react/apps/erpnext 
+2023-03-16 14:44:59,499 DEBUG cd /home/samarasan/Projects/river_frappae_react/apps/erpnext && yarn install
+2023-03-16 14:45:00,357 DEBUG bench build --app erpnext
+2023-03-16 14:45:00,650 INFO /home/samarasan/.local/bin/bench build --app erpnext
+2023-03-16 14:45:09,063 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-03-16 14:45:57,794 INFO /home/samarasan/.local/bin/bench start
+2023-03-16 14:45:58,440 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-03-16 14:45:58,600 INFO /home/samarasan/.local/bin/bench schedule
+2023-03-16 14:45:58,604 INFO /home/samarasan/.local/bin/bench watch
+2023-03-16 14:45:58,637 INFO /home/samarasan/.local/bin/bench worker
+2023-03-16 14:52:42,670 INFO /home/samarasan/.local/bin/bench get-app --branch version-14 erpnext
+2023-03-16 14:52:43,465 LOG Getting erpnext
+2023-03-16 14:52:43,466 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2023-03-16 14:52:51,153 LOG Installing erpnext
+2023-03-16 14:52:51,531 DEBUG cd /home/samarasan/Projects/river_frappae_react && /home/samarasan/Projects/river_frappae_react/env/bin/python -m pip install --quiet --upgrade -e /home/samarasan/Projects/river_frappae_react/apps/erpnext 
+2023-03-16 14:52:55,567 DEBUG cd /home/samarasan/Projects/river_frappae_react/apps/erpnext && yarn install
+2023-03-16 14:52:56,330 DEBUG bench build --app erpnext
+2023-03-16 14:52:56,525 INFO /home/samarasan/.local/bin/bench build --app erpnext
+2023-03-16 14:53:05,520 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-03-16 15:10:42,562 INFO /home/samarasan/.local/bin/bench start
+2023-03-16 15:10:43,293 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-03-16 15:10:43,318 INFO /home/samarasan/.local/bin/bench watch
+2023-03-16 15:10:43,369 INFO /home/samarasan/.local/bin/bench schedule
+2023-03-16 15:10:43,405 INFO /home/samarasan/.local/bin/bench worker
+2023-03-16 15:39:03,491 INFO /home/samarasan/.local/bin/bench --site local.com mariadb
+2023-03-16 15:44:31,354 INFO /home/samarasan/.local/bin/bench --site local.com mariadb
+2023-03-16 18:00:02,232 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-16 18:23:01,335 INFO /home/samarasan/.local/bin/bench start
+2023-03-16 18:23:01,946 INFO /home/samarasan/.local/bin/bench watch
+2023-03-16 18:23:02,000 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-03-16 18:23:02,017 INFO /home/samarasan/.local/bin/bench worker
+2023-03-16 18:23:02,079 INFO /home/samarasan/.local/bin/bench schedule
+2023-03-17 11:32:40,689 INFO /home/samarasan/.local/bin/bench site local.com mariadb
+2023-03-17 11:33:06,251 INFO /home/samarasan/.local/bin/bench --site local.com mariadb
+2023-03-17 12:00:01,709 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-17 18:00:02,171 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-20 12:00:01,605 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-20 18:00:02,358 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-21 12:00:02,212 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-21 18:00:01,572 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-22 12:00:02,195 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-22 18:00:01,353 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-23 12:00:01,633 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-23 18:00:02,104 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-24 12:00:01,861 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-27 12:00:01,581 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-27 18:00:01,860 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-28 10:43:37,690 INFO /home/samarasan/.local/bin/bench start
+2023-03-28 10:43:38,343 INFO /home/samarasan/.local/bin/bench worker
+2023-03-28 10:43:38,373 INFO /home/samarasan/.local/bin/bench schedule
+2023-03-28 10:43:38,411 INFO /home/samarasan/.local/bin/bench watch
+2023-03-28 10:43:38,415 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-03-28 12:00:01,632 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-29 12:00:02,151 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-30 12:00:01,659 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-30 18:00:01,285 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-31 12:00:02,094 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-03-31 18:00:02,246 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-04-03 10:37:11,161 INFO /home/samarasan/.local/bin/bench start
+2023-04-03 10:37:14,352 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-04-03 10:37:14,405 INFO /home/samarasan/.local/bin/bench watch
+2023-04-03 10:37:14,421 INFO /home/samarasan/.local/bin/bench worker
+2023-04-03 10:37:14,444 INFO /home/samarasan/.local/bin/bench schedule
+2023-04-03 12:00:01,889 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-04-03 18:00:01,425 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-04-04 12:00:02,154 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-04-04 18:00:02,126 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-04-05 12:00:01,848 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-04-05 18:03:41,366 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-04-06 12:00:02,392 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-04-06 18:00:01,383 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-04-07 11:01:20,470 INFO /home/samarasan/.local/bin/bench start
+2023-04-07 11:01:21,206 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-04-07 11:01:21,319 INFO /home/samarasan/.local/bin/bench schedule
+2023-04-07 11:01:21,398 INFO /home/samarasan/.local/bin/bench worker
+2023-04-07 11:01:21,451 INFO /home/samarasan/.local/bin/bench watch
+2023-04-10 10:06:04,430 INFO /home/samarasan/.local/bin/bench start
+2023-04-10 10:06:06,702 INFO /home/samarasan/.local/bin/bench worker
+2023-04-10 10:06:06,706 INFO /home/samarasan/.local/bin/bench serve --port 8002
+2023-04-10 10:06:06,724 INFO /home/samarasan/.local/bin/bench watch
+2023-04-10 10:06:06,754 INFO /home/samarasan/.local/bin/bench schedule
+2023-04-10 12:00:02,116 INFO /home/samarasan/.local/bin/bench --verbose --site all backup
+2023-04-11 12:00:01,749 INFO /home/samarasan/.local/bin/bench --verbose --site all backup

@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230317T101500
+DTEND;TZID=Asia/Kolkata:20230317T103000
+RRULE:FREQ=WEEKLY;BYDAY=FR,MO,TH,TU,WE
+DTSTAMP:20230317T124556Z
+ORGANIZER;CN=saravanan@riverstonetech.com:mailto:saravanan@riverstonetech.c
+ om
+UID:1p9vdn7uhe6gm4itd32d9iv8rn@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=samarasan@riverstonetech.in;X-NUM-GUESTS=0:mailto:samarasan@riverst
+ onetech.in
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=saravanan@riverstonetech.com;X-NUM-GUESTS=0:mailto:saravanan@riverstone
+ tech.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/xrr-mbdd-ehr
+X-MICROSOFT-CDO-OWNERAPPTID:-380984178
+CREATED:20230317T124417Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/xr
+ r-mbdd-ehr\nOr dial: (US) +1 219-973-4145 PIN: 269854018#\nMore phone numbe
+ rs: https://tel.meet/xrr-mbdd-ehr?pin=4439807642880&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20230317T124554Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:DSM - React Engineer
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

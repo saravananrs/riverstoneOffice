@@ -1,0 +1,360 @@
+2023-03-16 14:43:14,250 ERROR frappe New Exception collected with id: 2023-03-16 14:43:14.109823-127.0.0.1-901
+Site: local.com
+Form Dict: {'cmd': 'login', 'usr': 'administrator', 'pwd': '********', 'device': 'desktop'}
+2023-03-16 14:43:25,081 ERROR frappe New Exception collected with id: 2023-03-16 14:43:25.018606-127.0.0.1-b3f
+Site: local.com
+Form Dict: {'cmd': 'login', 'usr': 'administrator', 'pwd': '********', 'device': 'desktop'}
+2023-03-16 14:48:05,788 ERROR frappe Could not take error snapshot: No module named 'erpnext.hooks'
+Site: local.com
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/app.py", line 129, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 34, in __init__
+    self.set_session()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 70, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 119, in __init__
+    self.make_session(resume=True)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 207, in make_session
+    frappe.local.session_obj = Session(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/sessions.py", line 238, in __init__
+    self.resume()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/sessions.py", line 310, in resume
+    validate_ip_address(self.user)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 416, in validate_ip_address
+    frappe.get_cached_value("User", user, user_fields, as_dict=True)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1150, in get_cached_value
+    doc = get_cached_doc(doctype, name)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1091, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1184, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/model/base_document.py", line 77, in get_controller
+    return _get_controller()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/model/base_document.py", line 47, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/database.py", line 496, in get_value
+    result = self.get_values(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/database.py", line 593, in get_values
+    out = self._get_values_from_table(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/database.py", line 810, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext.hooks'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/error.py", line 47, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/error.py", line 105, in get_snapshot
+    vars = cgitb.scanvars(reader, frame, locals)
+  File "/usr/lib/python3.10/cgitb.py", line 88, in scanvars
+    value = getattr(parent, token, __UNDEF__)
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext.hooks'
+2023-03-16 14:48:14,637 ERROR frappe Could not take error snapshot: No module named 'erpnext.hooks'
+Site: local.com
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/app.py", line 129, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 34, in __init__
+    self.set_session()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 70, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 119, in __init__
+    self.make_session(resume=True)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 207, in make_session
+    frappe.local.session_obj = Session(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/sessions.py", line 238, in __init__
+    self.resume()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/sessions.py", line 310, in resume
+    validate_ip_address(self.user)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 416, in validate_ip_address
+    frappe.get_cached_value("User", user, user_fields, as_dict=True)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1150, in get_cached_value
+    doc = get_cached_doc(doctype, name)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1091, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1184, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/model/base_document.py", line 77, in get_controller
+    return _get_controller()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/model/base_document.py", line 47, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/database.py", line 496, in get_value
+    result = self.get_values(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/database.py", line 593, in get_values
+    out = self._get_values_from_table(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/database.py", line 810, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext.hooks'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/error.py", line 47, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/error.py", line 105, in get_snapshot
+    vars = cgitb.scanvars(reader, frame, locals)
+  File "/usr/lib/python3.10/cgitb.py", line 88, in scanvars
+    value = getattr(parent, token, __UNDEF__)
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext.hooks'
+2023-03-16 14:52:26,486 ERROR frappe Could not take error snapshot: No module named 'erpnext.hooks'
+Site: local.com
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/app.py", line 129, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 34, in __init__
+    self.set_session()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 70, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 119, in __init__
+    self.make_session(resume=True)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 207, in make_session
+    frappe.local.session_obj = Session(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/sessions.py", line 238, in __init__
+    self.resume()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/sessions.py", line 310, in resume
+    validate_ip_address(self.user)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/auth.py", line 416, in validate_ip_address
+    frappe.get_cached_value("User", user, user_fields, as_dict=True)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1150, in get_cached_value
+    doc = get_cached_doc(doctype, name)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1091, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1184, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/model/base_document.py", line 77, in get_controller
+    return _get_controller()
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/model/base_document.py", line 47, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/database.py", line 496, in get_value
+    result = self.get_values(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/database.py", line 593, in get_values
+    out = self._get_values_from_table(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/database.py", line 810, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 515, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 371, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 330, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext.hooks'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/error.py", line 47, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/error.py", line 105, in get_snapshot
+    vars = cgitb.scanvars(reader, frame, locals)
+  File "/usr/lib/python3.10/cgitb.py", line 88, in scanvars
+    value = getattr(parent, token, __UNDEF__)
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/database/query.py", line 196, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1496, in get_hooks
+    hooks = _dict(_load_app_hooks())
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1465, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/samarasan/Projects/river_frappae_react/apps/frappe/frappe/__init__.py", line 1327, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext.hooks'
+2023-03-16 15:54:20,312 ERROR frappe New Exception collected with id: 2023-03-16 15:54:20.120284-127.0.0.1-4e1
+Site: local.com
+Form Dict: {'doctype': 'DocType', 'fields': ['`tabProject`.`name`', '`tabProject`.`owner`', '`tabProject`.`creation`', '`tabProject`.`modified`', '`tabProject`.`modified_by`', '`tabProject`.`_user_tags`', '`tabProject`.`_comments`', '`tabProject`.`_assign`', '`tabProject`.`_liked_by`', '`tabProject`.`docstatus`', '`tabProject`.`idx`', '`tabProject`.`status`', '`tabProject`.`project_type`', '`tabProject`.`expected_end_date`', '`tabProject`.`estimated_costing`', '`tabProject`.`project_name`', '`tabProject`.`priority`', '`tabProject`.`is_active`', '`tabProject`.`percent_complete`', '`tabProject`.`_seen`'], 'filters': [['Project', 'status', '=', 'Completed']], 'order_by': '`tabProject`.`modified` desc', 'start': 0, 'page_length': '20', 'view': 'List', 'group_by': '`tabProject`.`name`', 'with_comment_count': True, 'cmd': 'frappe.desk.reportview.get'}
+2023-03-28 10:54:51,313 ERROR frappe New Exception collected with id: 2023-03-28 10:54:51.122169-127.0.0.1-433
+Site: local.com
+Form Dict: {'doctype': 'Tech Management', 'fields': '["`tabTech Management`.`name`","`tabTech Management`.`owner`","`tabTech Management`.`creation`","`tabTech Management`.`modified`","`tabTech Management`.`modified_by`","`tabTech Management`.`_user_tags`","`tabTech Management`.`_comments`","`tabTech Management`.`_assign`","`tabTech Management`.`_liked_by`","`tabTech Management`.`docstatus`","`tabTech Management`.`idx`"]', 'filters': '[]', 'order_by': '`tabTech Management`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '`tabTech Management`.`name`', 'with_comment_count': 'true', 'cmd': 'frappe.desk.reportview.get'}
+2023-03-29 11:27:58,670 ERROR frappe New Exception collected with id: 2023-03-29 11:27:58.666187-127.0.0.1-a44
+Site: local.com
+Form Dict: {}
+2023-03-29 11:27:58,672 ERROR frappe New Exception collected with id: 2023-03-29 11:27:58.660948-127.0.0.1-210
+Site: local.com
+Form Dict: {'fields': ['name'], 'filters': '[]', 'or_filters': '[]', 'order_by': '', 'as_dict': True, 'limit_page_length': 20}
+2023-03-29 11:28:03,730 ERROR frappe New Exception collected with id: 2023-03-29 11:28:03.721751-127.0.0.1-3c7
+Site: local.com
+Form Dict: {'fields': ['name'], 'filters': '[]', 'or_filters': '[]', 'order_by': '', 'as_dict': True, 'limit_page_length': 20}
+2023-03-29 11:28:08,721 ERROR frappe New Exception collected with id: 2023-03-29 11:28:08.716349-127.0.0.1-a1d
+Site: local.com
+Form Dict: {}
+2023-03-29 11:28:13,771 ERROR frappe New Exception collected with id: 2023-03-29 11:28:13.766177-127.0.0.1-08e
+Site: local.com
+Form Dict: {'fields': ['name'], 'filters': '[]', 'or_filters': '[]', 'order_by': '', 'as_dict': True, 'limit_page_length': 20}
+2023-03-29 11:28:18,751 ERROR frappe New Exception collected with id: 2023-03-29 11:28:18.747183-127.0.0.1-b72
+Site: local.com
+Form Dict: {}
+2023-03-29 11:28:48,801 ERROR frappe New Exception collected with id: 2023-03-29 11:28:48.794166-127.0.0.1-974
+Site: local.com
+Form Dict: {}
+2023-03-29 11:29:03,811 ERROR frappe New Exception collected with id: 2023-03-29 11:29:03.805645-127.0.0.1-480
+Site: local.com
+Form Dict: {'fields': ['name'], 'filters': '[]', 'or_filters': '[]', 'order_by': '', 'as_dict': True, 'limit_page_length': 20}
+2023-03-29 11:30:13,896 ERROR frappe New Exception collected with id: 2023-03-29 11:30:13.887604-127.0.0.1-fb4
+Site: local.com
+Form Dict: {}
+2023-03-29 11:30:28,874 ERROR frappe New Exception collected with id: 2023-03-29 11:30:28.866536-127.0.0.1-038
+Site: local.com
+Form Dict: {'fields': ['name'], 'filters': '[]', 'or_filters': '[]', 'order_by': '', 'as_dict': True, 'limit_page_length': 20}

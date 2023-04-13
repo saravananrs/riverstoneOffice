@@ -1,0 +1,41 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "14.27.0"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "cfe28663bcaad841588340a1f12d8300851dc6d2",
+            "branch": "version-14"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "14.18.1"
+    },
+    "doppio": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "9cedcc46b609c667bcaabc7e7f6e08c21537dadc",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    },
+    "project_module": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "52ab26b090d8e3c47afb3ccb2b678628d3d1260a",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "0.0.1"
+    }
+}
