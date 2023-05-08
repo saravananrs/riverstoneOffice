@@ -79,3 +79,225 @@ Form Dict: {'usr': 'administrator'}
 2023-04-11 10:36:56,419 ERROR frappe New Exception collected with id: 2023-04-11 10:36:55.637520-127.0.0.1-09b
 Site: local.com
 Form Dict: {'cmd': 'erpnext.support.doctype.service_level_agreement.service_level_agreement.get_sla_doctypes'}
+2023-04-17 11:03:55,885 ERROR frappe New Exception collected with id: 2023-04-17 11:03:55.522763-127.0.0.1-881
+Site: local.com
+Form Dict: {'usr': 'administrator'}
+2023-04-19 17:08:57,783 ERROR frappe New Exception collected with id: 2023-04-19 17:08:57.617836-127.0.0.1-6c8
+Site: local.com
+Form Dict: {'fields': ['*'], 'order_by': '', 'as_dict': True, 'limit_page_length': 20}
+2023-04-19 17:08:57,972 ERROR frappe New Exception collected with id: 2023-04-19 17:08:57.964998-127.0.0.1-447
+Site: local.com
+Form Dict: {'fields': ['*'], 'order_by': '', 'as_dict': True, 'limit_page_length': 20}
+2023-04-19 17:09:02,906 ERROR frappe New Exception collected with id: 2023-04-19 17:09:02.897993-127.0.0.1-6d8
+Site: local.com
+Form Dict: {'fields': ['*'], 'order_by': '', 'as_dict': True, 'limit_page_length': 20}
+2023-04-19 17:09:03,024 ERROR frappe New Exception collected with id: 2023-04-19 17:09:03.018503-127.0.0.1-79a
+Site: local.com
+Form Dict: {'fields': ['*'], 'order_by': '', 'as_dict': True, 'limit_page_length': 20}
+2023-04-19 17:09:17,960 ERROR frappe New Exception collected with id: 2023-04-19 17:09:17.954640-127.0.0.1-037
+Site: local.com
+Form Dict: {'fields': ['*'], 'order_by': '', 'as_dict': True, 'limit_page_length': 20}
+2023-04-19 17:09:27,006 ERROR frappe New Exception collected with id: 2023-04-19 17:09:26.998830-127.0.0.1-18f
+Site: local.com
+Form Dict: {'fields': ['*'], 'order_by': '', 'as_dict': True, 'limit_page_length': 20}
+2023-04-19 17:09:28,068 ERROR frappe New Exception collected with id: 2023-04-19 17:09:28.058084-127.0.0.1-2d6
+Site: local.com
+Form Dict: {'fields': ['*'], 'order_by': '', 'as_dict': True, 'limit_page_length': 20}
+2023-04-19 17:09:32,056 ERROR frappe New Exception collected with id: 2023-04-19 17:09:32.051323-127.0.0.1-4c3
+Site: local.com
+Form Dict: {'fields': ['*'], 'order_by': '', 'as_dict': True, 'limit_page_length': 20}
+2023-05-03 14:34:05,427 ERROR frappe New Exception collected with id: 2023-05-03 14:34:05.306214-127.0.0.1-5c8
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '731bb66d90', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 14:34:24,891 ERROR frappe New Exception collected with id: 2023-05-03 14:34:24.882517-127.0.0.1-6c8
+Site: local.com
+Form Dict: {}
+2023-05-03 14:35:02,742 ERROR frappe New Exception collected with id: 2023-05-03 14:35:02.732817-127.0.0.1-2bc
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '731bb66d90', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 14:35:42,840 ERROR frappe New Exception collected with id: 2023-05-03 14:35:42.825739-127.0.0.1-8a9
+Site: local.com
+Form Dict: {}
+2023-05-03 14:35:47,931 ERROR frappe New Exception collected with id: 2023-05-03 14:35:47.907742-127.0.0.1-a93
+Site: local.com
+Form Dict: {}
+2023-05-03 14:35:54,874 ERROR frappe New Exception collected with id: 2023-05-03 14:35:54.861762-127.0.0.1-df0
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:00,057 ERROR frappe New Exception collected with id: 2023-05-03 14:35:59.997709-127.0.0.1-973
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:06,897 ERROR frappe New Exception collected with id: 2023-05-03 14:36:06.887293-127.0.0.1-a73
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:10,117 ERROR frappe New Exception collected with id: 2023-05-03 14:36:10.108484-127.0.0.1-12b
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:13,000 ERROR frappe New Exception collected with id: 2023-05-03 14:36:12.988137-127.0.0.1-e04
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:16,197 ERROR frappe New Exception collected with id: 2023-05-03 14:36:16.189179-127.0.0.1-441
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:16,956 ERROR frappe New Exception collected with id: 2023-05-03 14:36:16.949003-127.0.0.1-240
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:22,753 ERROR frappe New Exception collected with id: 2023-05-03 14:36:22.743883-127.0.0.1-8e5
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:26,286 ERROR frappe New Exception collected with id: 2023-05-03 14:36:26.264321-127.0.0.1-a00
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:27,814 ERROR frappe New Exception collected with id: 2023-05-03 14:36:27.803061-127.0.0.1-6a1
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:37,879 ERROR frappe New Exception collected with id: 2023-05-03 14:36:37.869521-127.0.0.1-7c8
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:38,084 ERROR frappe New Exception collected with id: 2023-05-03 14:36:38.074178-127.0.0.1-469
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:40,173 ERROR frappe New Exception collected with id: 2023-05-03 14:36:40.163602-127.0.0.1-9ae
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:42,011 ERROR frappe New Exception collected with id: 2023-05-03 14:36:42.003127-127.0.0.1-27f
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:46,354 ERROR frappe New Exception collected with id: 2023-05-03 14:36:46.341805-127.0.0.1-9d3
+Site: local.com
+Form Dict: {}
+2023-05-03 14:36:58,739 ERROR frappe New Exception collected with id: 2023-05-03 14:36:58.731845-127.0.0.1-766
+Site: local.com
+Form Dict: {'projectname': 'Token.Store', 'accomplishments': "<ol><li>Implement remove from sale after put on sale.</li><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Analysis Mythril open source Audit report.</li><li>Prepared UAT and step documents for bug bash.</li></ol><p><br></p>", 'resources': '<p>sam casdasd,Naveen R,Sam S</p>', 'completed_tasks': "<ol><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Implement the remove from sale option in the contract, node, and front-end side.</li></ol><p><br></p>", 'name1': 'Arr', 'role': 'Software Engineer', 'overview': 'The document captures the highlights of the Token Store project in February 2023.', 'pending_tasks': [{'pending_tasks': 'Need to conduct bug bashes with the internal team.'}, {'pending_tasks': 'Analysis to integrate Polygon crypto.'}, {'pending_tasks': 'Implement to do migration plan'}], 'last_month_pending_tasks': None, 'dashboard': [{'dashboard': 'NA'}], 'initiativesvalue_additionsautomation': [{'initiativesvalue_additionsautomation': 'NA'}], 'lessons_learnedchallenges': [{'lessons_learnedchallenges': 'NA'}], 'issuesconstraintsdependencies': [{'issuesconstraintsdependencies': 'NA'}], 'action_items': [{'action_items': 'NA'}]}
+2023-05-03 14:37:07,069 ERROR frappe New Exception collected with id: 2023-05-03 14:37:07.058324-127.0.0.1-23f
+Site: local.com
+Form Dict: {}
+2023-05-03 14:37:23,143 ERROR frappe New Exception collected with id: 2023-05-03 14:37:23.131939-127.0.0.1-c20
+Site: local.com
+Form Dict: {}
+2023-05-03 14:37:25,418 ERROR frappe New Exception collected with id: 2023-05-03 14:37:25.410430-127.0.0.1-7aa
+Site: local.com
+Form Dict: {}
+2023-05-03 14:37:26,401 ERROR frappe New Exception collected with id: 2023-05-03 14:37:26.394231-127.0.0.1-d18
+Site: local.com
+Form Dict: {}
+2023-05-03 14:37:27,945 ERROR frappe New Exception collected with id: 2023-05-03 14:37:27.936108-127.0.0.1-1e0
+Site: local.com
+Form Dict: {}
+2023-05-03 14:37:35,464 ERROR frappe New Exception collected with id: 2023-05-03 14:37:35.455221-127.0.0.1-24c
+Site: local.com
+Form Dict: {}
+2023-05-03 14:37:35,773 ERROR frappe New Exception collected with id: 2023-05-03 14:37:35.764285-127.0.0.1-1b0
+Site: local.com
+Form Dict: {}
+2023-05-03 14:37:40,825 ERROR frappe New Exception collected with id: 2023-05-03 14:37:40.816288-127.0.0.1-f5f
+Site: local.com
+Form Dict: {}
+2023-05-03 14:37:45,299 ERROR frappe New Exception collected with id: 2023-05-03 14:37:45.291384-127.0.0.1-1b0
+Site: local.com
+Form Dict: {}
+2023-05-03 14:37:51,306 ERROR frappe New Exception collected with id: 2023-05-03 14:37:51.295832-127.0.0.1-e18
+Site: local.com
+Form Dict: {}
+2023-05-03 14:38:32,310 ERROR frappe New Exception collected with id: 2023-05-03 14:38:32.300076-127.0.0.1-c5c
+Site: local.com
+Form Dict: {}
+2023-05-03 14:38:37,303 ERROR frappe New Exception collected with id: 2023-05-03 14:38:37.294878-127.0.0.1-e2c
+Site: local.com
+Form Dict: {}
+2023-05-03 14:39:03,327 ERROR frappe New Exception collected with id: 2023-05-03 14:39:03.305921-127.0.0.1-615
+Site: local.com
+Form Dict: {}
+2023-05-03 14:39:18,309 ERROR frappe New Exception collected with id: 2023-05-03 14:39:18.299626-127.0.0.1-e0e
+Site: local.com
+Form Dict: {}
+2023-05-03 14:40:37,409 ERROR frappe New Exception collected with id: 2023-05-03 14:40:37.403693-127.0.0.1-ff5
+Site: local.com
+Form Dict: {'projectname': 'Token.Store', 'accomplishments': "<ol><li>Implement remove from sale after put on sale.</li><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Analysis Mythril open source Audit report.</li><li>Prepared UAT and step documents for bug bash.</li></ol><p><br></p>", 'resources': '<p>sam casdasd,Naveen R,Sam S</p>', 'completed_tasks': "<ol><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Implement the remove from sale option in the contract, node, and front-end side.</li></ol><p><br></p>", 'name1': 'Arr', 'role': 'Software Engineer', 'overview': 'The document captures the highlights of the Token Store project in February 2023.', 'pending_tasks': [{'pending_tasks': 'Need to conduct bug bashes with the internal team.'}, {'pending_tasks': 'Analysis to integrate Polygon crypto.'}, {'pending_tasks': 'Implement to do migration plan'}], 'last_month_pending_tasks': None, 'dashboard': [{'dashboard': ''}], 'initiativesvalue_additionsautomation': [{'initiativesvalue_additionsautomation': ''}], 'lessons_learnedchallenges': [{'lessons_learnedchallenges': ''}], 'issuesconstraintsdependencies': [{'issuesconstraintsdependencies': ''}], 'action_items': [{'action_items': 'NA'}]}
+2023-05-03 14:41:18,824 ERROR frappe New Exception collected with id: 2023-05-03 14:41:18.818621-127.0.0.1-454
+Site: local.com
+Form Dict: {'projectname': 'Token.Store', 'accomplishments': "<ol><li>Implement remove from sale after put on sale.</li><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Analysis Mythril open source Audit report.</li><li>Prepared UAT and step documents for bug bash.</li></ol><p><br></p>", 'resources': '<p>sam casdasd,Naveen R,Sam S</p>', 'completed_tasks': "<ol><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Implement the remove from sale option in the contract, node, and front-end side.</li></ol><p><br></p>", 'name1': 'Arr', 'role': 'Software Engineer', 'overview': 'The document captures the highlights of the Token Store project in February 2023.', 'pending_tasks': [{'pending_tasks': 'Need to conduct bug bashes with the internal team.'}, {'pending_tasks': 'Analysis to integrate Polygon crypto.'}, {'pending_tasks': 'Implement to do migration plan'}], 'last_month_pending_tasks': None, 'dashboard': [{'dashboard': ''}], 'initiativesvalue_additionsautomation': [{'initiativesvalue_additionsautomation': ''}], 'lessons_learnedchallenges': [{'lessons_learnedchallenges': ''}], 'issuesconstraintsdependencies': [{'issuesconstraintsdependencies': ''}], 'action_items': [{'action_items': ''}]}
+2023-05-03 14:41:51,907 ERROR frappe New Exception collected with id: 2023-05-03 14:41:51.733697-127.0.0.1-382
+Site: local.com
+Form Dict: {'projectname': 'Token.Store', 'accomplishments': "<ol><li>Implement remove from sale after put on sale.</li><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Analysis Mythril open source Audit report.</li><li>Prepared UAT and step documents for bug bash.</li></ol><p><br></p>", 'resources': '<p>sam casdasd,Naveen R,Sam S</p>', 'completed_tasks': "<ol><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Implement the remove from sale option in the contract, node, and front-end side.</li></ol><p><br></p>", 'name1': 'Arr', 'role': 'Software Engineer', 'overview': 'The document captures the highlights of the Token Store project in February 2023.', 'pending_tasks': [{'pending_tasks': 'Need to conduct bug bashes with the internal team.'}, {'pending_tasks': 'Analysis to integrate Polygon crypto.'}, {'pending_tasks': 'Implement to do migration plan'}], 'last_month_pending_tasks': None, 'dashboard': [{'dashboard': ''}], 'initiativesvalue_additionsautomation': [{'initiativesvalue_additionsautomation': ''}], 'lessons_learnedchallenges': [{'lessons_learnedchallenges': ''}], 'issuesconstraintsdependencies': [{'issuesconstraintsdependencies': ''}], 'action_items': [{'action_items': ''}]}
+2023-05-03 14:44:59,809 ERROR frappe New Exception collected with id: 2023-05-03 14:44:59.803270-127.0.0.1-80f
+Site: local.com
+Form Dict: {'projectname': 'Token.Store', 'accomplishments': "<ol><li>Implement remove from sale after put on sale.</li><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Analysis Mythril open source Audit report.</li><li>Prepared UAT and step documents for bug bash.</li></ol><p><br></p>", 'resources': '<p>sam casdasd,Naveen R,Sam S</p>', 'completed_tasks': "<ol><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Implement the remove from sale option in the contract, node, and front-end side.</li></ol><p><br></p>", 'name1': 'Arr', 'role': 'Software Engineer', 'overview': 'The document captures the highlights of the Token Store project in February 2023.', 'pending_tasks': [{'pending_tasks': 'Need to conduct bug bashes with the internal team.'}, {'pending_tasks': 'Analysis to integrate Polygon crypto.'}, {'pending_tasks': 'Implement to do migration plan'}], 'last_month_pending_tasks': None, 'dashboard': [{'dashboard': ''}], 'initiativesvalue_additionsautomation': [{'initiativesvalue_additionsautomation': ''}], 'lessons_learnedchallenges': [{'lessons_learnedchallenges': ''}], 'issuesconstraintsdependencies': [{'issuesconstraintsdependencies': ''}], 'action_items': [{'action_items': ''}]}
+2023-05-03 14:55:27,096 ERROR frappe New Exception collected with id: 2023-05-03 14:55:27.089949-127.0.0.1-5b0
+Site: local.com
+Form Dict: {'projectname': 'Token.Store', 'accomplishments': "<ol><li>Implement remove from sale after put on sale.</li><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Analysis Mythril open source Audit report.</li><li>Prepared UAT and step documents for bug bash.</li></ol><p><br></p>", 'resources': '<p>sam casdasd,Naveen R,Sam S</p>', 'completed_tasks': "<ol><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Implement the remove from sale option in the contract, node, and front-end side.</li></ol><p><br></p>", 'name1': 'Arr', 'role': 'Software Engineer', 'overview': 'The document captures the highlights of the Token Store project in February 2023.', 'pending_tasks': [{'pending_tasks': 'Need to conduct bug bashes with the internal team.'}, {'pending_tasks': 'Analysis to integrate Polygon crypto.'}, {'pending_tasks': 'Implement to do migration plan'}], 'last_month_pending_tasks': None, 'dashboard': [{'dashboard': ''}], 'initiativesvalue_additionsautomation': [{'initiativesvalue_additionsautomation': ''}], 'lessons_learnedchallenges': [{'lessons_learnedchallenges': ''}], 'issuesconstraintsdependencies': [{'issuesconstraintsdependencies': ''}], 'action_items': [{'action_items': ''}]}
+2023-05-03 14:56:28,026 ERROR frappe New Exception collected with id: 2023-05-03 14:56:28.019905-127.0.0.1-dc1
+Site: local.com
+Form Dict: {'projectname': 'Token.Store', 'accomplishments': "<ol><li>Implement remove from sale after put on sale.</li><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Analysis Mythril open source Audit report.</li><li>Prepared UAT and step documents for bug bash.</li></ol><p><br></p>", 'resources': '<p>sam casdasd,Naveen R,Sam S</p>', 'completed_tasks': "<ol><li>Bug fixing both tester's pointed issues and unit-testing issues.</li><li>Implement the remove from sale option in the contract, node, and front-end side.</li></ol><p><br></p>", 'name1': 'Arr', 'role': 'Software Engineer', 'overview': 'The document captures the highlights of the Token Store project in February 2023.', 'pending_tasks': [{'pending_tasks': 'Need to conduct bug bashes with the internal team.'}, {'pending_tasks': 'Analysis to integrate Polygon crypto.'}, {'pending_tasks': 'Implement to do migration plan'}], 'last_month_pending_tasks': None, 'dashboard': [{'dashboard': ''}], 'initiativesvalue_additionsautomation': [{'initiativesvalue_additionsautomation': ''}], 'lessons_learnedchallenges': [{'lessons_learnedchallenges': ''}], 'issuesconstraintsdependencies': [{'issuesconstraintsdependencies': ''}], 'action_items': [{'action_items': ''}]}
+2023-05-03 15:01:14,023 ERROR frappe New Exception collected with id: 2023-05-03 15:01:14.017019-127.0.0.1-14a
+Site: local.com
+Form Dict: {'projectname': '', 'accomplishments': None, 'resources': None, 'completed_tasks': None, 'name1': '', 'role': '', 'overview': '', 'pending_tasks': [{'pending_tasks': '1'}, {'pending_tasks': '2'}], 'last_month_pending_tasks': None, 'dashboard': [{'dashboard': '2'}], 'initiativesvalue_additionsautomation': [{'initiativesvalue_additionsautomation': '3'}], 'lessons_learnedchallenges': None, 'issuesconstraintsdependencies': None, 'action_items': None}
+2023-05-03 15:02:03,984 ERROR frappe New Exception collected with id: 2023-05-03 15:02:03.974390-127.0.0.1-7a5
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '9c034ccd8a', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:02:09,567 ERROR frappe New Exception collected with id: 2023-05-03 15:02:09.559008-127.0.0.1-07d
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': 'c6b8233fc3', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:02:18,813 ERROR frappe New Exception collected with id: 2023-05-03 15:02:18.804295-127.0.0.1-5ae
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '4e42724f72', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:02:59,938 ERROR frappe New Exception collected with id: 2023-05-03 15:02:59.928944-127.0.0.1-ab6
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': 'f12c1355c7', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:03:06,110 ERROR frappe New Exception collected with id: 2023-05-03 15:03:06.101094-127.0.0.1-288
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '731bb66d90', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:03:24,705 ERROR frappe New Exception collected with id: 2023-05-03 15:03:24.693685-127.0.0.1-7e5
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '1ae05424b2', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:03:50,247 ERROR frappe New Exception collected with id: 2023-05-03 15:03:50.240408-127.0.0.1-c11
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '731bb66d90', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:05:03,801 ERROR frappe New Exception collected with id: 2023-05-03 15:05:03.791753-127.0.0.1-6aa
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '731bb66d90', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:05:28,195 ERROR frappe New Exception collected with id: 2023-05-03 15:05:28.185815-127.0.0.1-1d3
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '731bb66d90', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:05:30,940 ERROR frappe New Exception collected with id: 2023-05-03 15:05:30.931907-127.0.0.1-877
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '1ae05424b2', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:05:47,635 ERROR frappe New Exception collected with id: 2023-05-03 15:05:47.626311-127.0.0.1-3b4
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': 'e856a01b1c', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:06:16,479 ERROR frappe New Exception collected with id: 2023-05-03 15:06:16.468509-127.0.0.1-8c9
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': 'e856a01b1c', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:06:38,257 ERROR frappe New Exception collected with id: 2023-05-03 15:06:38.247688-127.0.0.1-474
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '1ae05424b2', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:16:29,132 ERROR frappe New Exception collected with id: 2023-05-03 15:16:29.122483-127.0.0.1-2b0
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '731bb66d90', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:16:34,298 ERROR frappe New Exception collected with id: 2023-05-03 15:16:34.290364-127.0.0.1-c07
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': 'e856a01b1c', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:17:57,807 ERROR frappe New Exception collected with id: 2023-05-03 15:17:57.798227-127.0.0.1-175
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '731bb66d90', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:18:12,542 ERROR frappe New Exception collected with id: 2023-05-03 15:18:12.532267-127.0.0.1-e4b
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': '1ae05424b2', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:20:56,737 ERROR frappe New Exception collected with id: 2023-05-03 15:20:56.725104-127.0.0.1-191
+Site: local.com
+Form Dict: {'doctype': 'Monthly', 'name': 'e856a01b1c', 'cmd': 'frappe.desk.form.load.getdoc'}
+2023-05-03 15:33:34,748 ERROR frappe New Exception collected with id: 2023-05-03 15:33:34.741764-127.0.0.1-166
+Site: local.com
+Form Dict: {'projectname': '', 'accomplishments': None, 'resources': None, 'completed_tasks': None, 'name1': 'Arr', 'role': 'Test 1', 'overview': '', 'pending_tasks': [{'pending_tasks': 'qwe'}, {'pending_tasks': 'ere'}], 'last_month_pending_tasks': None, 'dashboard': [{'dashboard': 'sss'}], 'initiativesvalue_additionsautomation': [{'initiativesvalue_additionsautomation': '1'}], 'lessons_learnedchallenges': [{'lessons_learnedchallenges': 'test'}], 'issuesconstraintsdependencies': [{'issuesconstraintsdependencies': 'test'}], 'action_items': [{'action_items': 'yest'}]}
+2023-05-07 15:55:26,873 ERROR frappe New Exception collected with id: 2023-05-07 15:55:26.860957-127.0.0.1-198
+Site: local.com
+Form Dict: {'sid': '5f5dcd7d2e90c0980e6e0f0d597c993a5003e7d719f4db4a8eca9494'}
+2023-05-07 15:55:26,940 ERROR frappe New Exception collected with id: 2023-05-07 15:55:26.870668-127.0.0.1-3b9
+Site: local.com
+Form Dict: {'sid': '5f5dcd7d2e90c0980e6e0f0d597c993a5003e7d719f4db4a8eca9494'}
+2023-05-07 15:55:26,969 ERROR frappe New Exception collected with id: 2023-05-07 15:55:26.859344-127.0.0.1-d79
+Site: local.com
+Form Dict: {'sid': '5f5dcd7d2e90c0980e6e0f0d597c993a5003e7d719f4db4a8eca9494'}
+2023-05-07 15:55:27,046 ERROR frappe New Exception collected with id: 2023-05-07 15:55:26.954843-127.0.0.1-307
+Site: local.com
+Form Dict: {'sid': '5f5dcd7d2e90c0980e6e0f0d597c993a5003e7d719f4db4a8eca9494'}

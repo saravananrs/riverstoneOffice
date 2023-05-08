@@ -226,3 +226,133 @@ Backup Summary for local.com at 2023-04-11 12:00:07.010689
 Config  : ./local.com/private/backups/20230411_120004-local_com-site_config_backup.json 203.0B
 Database: ./local.com/private/backups/20230411_120004-local_com-database.sql.gz         1.8MiB
 Backup for Site local.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f4a19affda489ba7 -p********** _f4a19affda489ba7 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./local.com/private/backups/20230417_120003-local_com-database.sql.gz
+
+Backup Summary for local.com at 2023-04-17 12:00:05.496145
+Config  : ./local.com/private/backups/20230417_120003-local_com-site_config_backup.json 203.0B
+Database: ./local.com/private/backups/20230417_120003-local_com-database.sql.gz         1.9MiB
+Backup for Site local.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f4a19affda489ba7 -p********** _f4a19affda489ba7 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./local.com/private/backups/20230417_180004-local_com-database.sql.gz
+
+Backup Summary for local.com at 2023-04-17 18:00:06.869467
+Config  : ./local.com/private/backups/20230417_180004-local_com-site_config_backup.json 203.0B
+Database: ./local.com/private/backups/20230417_180004-local_com-database.sql.gz         1.9MiB
+Backup for Site local.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f4a19affda489ba7 -p********** _f4a19affda489ba7 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./local.com/private/backups/20230418_120003-local_com-database.sql.gz
+
+Backup Summary for local.com at 2023-04-18 12:00:06.135388
+Config  : ./local.com/private/backups/20230418_120003-local_com-site_config_backup.json 203.0B
+Database: ./local.com/private/backups/20230418_120003-local_com-database.sql.gz         1.9MiB
+Backup for Site local.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f4a19affda489ba7 -p********** _f4a19affda489ba7 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./local.com/private/backups/20230418_180003-local_com-database.sql.gz
+
+Backup Summary for local.com at 2023-04-18 18:00:05.574663
+Config  : ./local.com/private/backups/20230418_180003-local_com-site_config_backup.json 203.0B
+Database: ./local.com/private/backups/20230418_180003-local_com-database.sql.gz         1.9MiB
+Backup for Site local.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f4a19affda489ba7 -p********** _f4a19affda489ba7 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./local.com/private/backups/20230419_120004-local_com-database.sql.gz
+
+Backup Summary for local.com at 2023-04-19 12:00:06.735276
+Config  : ./local.com/private/backups/20230419_120004-local_com-site_config_backup.json 203.0B
+Database: ./local.com/private/backups/20230419_120004-local_com-database.sql.gz         1.9MiB
+Backup for Site local.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f4a19affda489ba7 -p********** _f4a19affda489ba7 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./local.com/private/backups/20230420_120004-local_com-database.sql.gz
+
+Backup Summary for local.com at 2023-04-20 12:00:06.698933
+Config  : ./local.com/private/backups/20230420_120004-local_com-site_config_backup.json 203.0B
+Database: ./local.com/private/backups/20230420_120004-local_com-database.sql.gz         2.0MiB
+Backup for Site local.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f4a19affda489ba7 -p********** _f4a19affda489ba7 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./local.com/private/backups/20230420_180004-local_com-database.sql.gz
+
+Backup Summary for local.com at 2023-04-20 18:00:06.507493
+Config  : ./local.com/private/backups/20230420_180004-local_com-site_config_backup.json 203.0B
+Database: ./local.com/private/backups/20230420_180004-local_com-database.sql.gz         2.0MiB
+Backup for Site local.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f4a19affda489ba7 -p********** _f4a19affda489ba7 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./local.com/private/backups/20230428_120004-local_com-database.sql.gz
+
+Backup Summary for local.com at 2023-04-28 12:00:08.548238
+Config  : ./local.com/private/backups/20230428_120004-local_com-site_config_backup.json 267.0B
+Database: ./local.com/private/backups/20230428_120004-local_com-database.sql.gz         2.3MiB
+Backup for Site local.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f4a19affda489ba7 -p********** _f4a19affda489ba7 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./local.com/private/backups/20230502_120004-local_com-database.sql.gz
+
+Backup Summary for local.com at 2023-05-02 12:00:06.815606
+Config  : ./local.com/private/backups/20230502_120004-local_com-site_config_backup.json 267.0B
+Database: ./local.com/private/backups/20230502_120004-local_com-database.sql.gz         2.3MiB
+Backup for Site local.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f4a19affda489ba7 -p********** _f4a19affda489ba7 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./local.com/private/backups/20230502_180004-local_com-database.sql.gz
+
+b"mysqldump: Error 1194: Table '__global_search' is marked as crashed and should be repaired when dumping table `__global_search` at row: 2232\n"
+Backup failed for Site local.com. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 719, in backup
+    odb = scheduled_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 532, in scheduled_backup
+    odb = new_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 584, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 190, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 460, in take_dump
+    frappe.utils.execute_in_shell(command, low_priority=True, check_exit_code=True)
+  File "apps/frappe/frappe/utils/__init__.py", line 489, in execute_in_shell
+    raise Exception("Command failed")
+Exception: Command failed
+
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f4a19affda489ba7 -p********** _f4a19affda489ba7 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./local.com/private/backups/20230503_120004-local_com-database.sql.gz
+
+b"mysqldump: Error 1194: Table '__global_search' is marked as crashed and should be repaired when dumping table `__global_search` at row: 2232\n"
+Backup failed for Site local.com. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 719, in backup
+    odb = scheduled_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 532, in scheduled_backup
+    odb = new_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 584, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 190, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 460, in take_dump
+    frappe.utils.execute_in_shell(command, low_priority=True, check_exit_code=True)
+  File "apps/frappe/frappe/utils/__init__.py", line 489, in execute_in_shell
+    raise Exception("Command failed")
+Exception: Command failed
+
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f4a19affda489ba7 -p********** _f4a19affda489ba7 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./local.com/private/backups/20230503_180003-local_com-database.sql.gz
+
+b"mysqldump: Error 1194: Table '__global_search' is marked as crashed and should be repaired when dumping table `__global_search` at row: 1343\n"
+Backup failed for Site local.com. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 719, in backup
+    odb = scheduled_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 532, in scheduled_backup
+    odb = new_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 584, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 190, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 460, in take_dump
+    frappe.utils.execute_in_shell(command, low_priority=True, check_exit_code=True)
+  File "apps/frappe/frappe/utils/__init__.py", line 489, in execute_in_shell
+    raise Exception("Command failed")
+Exception: Command failed
+
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f4a19affda489ba7 -p********** _f4a19affda489ba7 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./local.com/private/backups/20230505_000004-local_com-database.sql.gz
+
+b"mysqldump: Error 1194: Table '__global_search' is marked as crashed and should be repaired when dumping table `__global_search` at row: 2212\n"
+Backup failed for Site local.com. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 719, in backup
+    odb = scheduled_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 532, in scheduled_backup
+    odb = new_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 584, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 190, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 460, in take_dump
+    frappe.utils.execute_in_shell(command, low_priority=True, check_exit_code=True)
+  File "apps/frappe/frappe/utils/__init__.py", line 489, in execute_in_shell
+    raise Exception("Command failed")
+Exception: Command failed
+

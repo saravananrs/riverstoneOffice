@@ -1,4 +1,5 @@
 frappe
 doppio
+hrms
 erpnext
 project_module

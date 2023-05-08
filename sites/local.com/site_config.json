@@ -4,5 +4,8 @@
  "db_password": "LGPBAQL76FNu2BNz",
  "db_type": "mariadb",
  "developer_mode": 1,
- "encryption_key": "dIGnSNiyoejiUUjJcPOsWmst6rArkith-fhEsbXZurY="
+ "encryption_key": "dIGnSNiyoejiUUjJcPOsWmst6rArkith-fhEsbXZurY=",
+ "user_type_doctype_limit": {
+  "employee_self_service": 20
+ }
 }
